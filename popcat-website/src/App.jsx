@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import POPCATImage from './components/POPCATImage'
+import POPCATImage from './components/PopcatImage'
 import TotalPopsCounter from './components/TotalPopsCounter'
 import Leaderboard from './components/Leaderboard'
 import RefLinks from './components/RefLinks'

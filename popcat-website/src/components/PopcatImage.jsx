@@ -49,7 +49,7 @@ const POPCATImage = ({ isPopping, onPop, totalPops }) => {
             <img
               src={isPopping ? openImage : closedImage}
               alt="Popcat"
-              className={`w-full h-full object-contain transition-all duration-100 ${isPopping ? 'animate-bounce' : ''}`}
+              className={`w-full h-full object-contain transition-all duration-100 ${isPopping ? 'animate-bounce translate-y-2' : ''}`}
               draggable="false"
             />
           </div>
